@@ -92,8 +92,8 @@ body {
 .header-contacts {
   font-style: normal;
 }
-.header-contacts-item:hover,
-.header-contacts-item:focus {
+.header-contacts-link:hover,
+.header-contacts-link:focus {
   color: var(--hover-focus-color);
 }
 .header-contacts-link {
