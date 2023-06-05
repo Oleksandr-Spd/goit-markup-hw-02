@@ -68,13 +68,17 @@ body {
 
 .header-menu .list {
 }
-.header-menu-items {
-}
+
 .header-menu-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
   color: var(--main-color);
 }
 .header-logo-part {
@@ -147,6 +151,7 @@ body {
 }
 
 .products-item {
+  background-color: var(--white-color);
 }
 
 .team {
